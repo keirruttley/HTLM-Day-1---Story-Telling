@@ -21,7 +21,15 @@ p {
     background-color: aliceblue;
 }
 
-#firstdiv {
+#title {
+    background-color: #2fa0a8;
+}
+
+#firstparagraph {
     color: blueviolet;
     background-color: #2fa0a8;
+}
+
+#the-end {
+    background-color: blueviolet;
 }
