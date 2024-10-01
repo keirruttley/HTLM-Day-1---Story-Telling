@@ -23,13 +23,42 @@ p {
 
 #title {
     background-color: #2fa0a8;
+    font-size: 30;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #firstparagraph {
     color: blueviolet;
     background-color: #2fa0a8;
+    position: absolute;
+    animation: makesquare 5s infinite;
 }
+
 
 #the-end {
     background-color: blueviolet;
+}
+
+
+/* image animation */
+@keyframes makesquare {
+    0% {
+        top:0px;
+        left:0px;
+    }
+
+    25% {
+        top:100px;
+        left:0px;
+    }
+
+    75% {
+        top:100px;
+        left:100px;
+    }
+
+    100% {
+        Top:0px;
+        left:100px;
+    }
 }
