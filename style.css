@@ -55,6 +55,11 @@ nav ul li {
     cursor: pointer;
 }
 
+/* this is so you can see the main title */
+#nav-placeholder{
+    height: 40px
+  }
+
 a {
     all: unset;
 }
@@ -74,7 +79,6 @@ p {
     background-color: #2fa0a8;
     font-size: 30;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 100px;
 }
 
 
