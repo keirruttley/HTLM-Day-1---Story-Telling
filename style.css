@@ -28,6 +28,11 @@ body {
 }
 
 /* navigation bar style */
+
+nav {
+    position: fixed;
+    width: 100vw;
+}
 /* nav ul selects any ul that is inside a nav */
 nav ul {
     /* list style type: none means you will remove bullet points */
@@ -46,6 +51,12 @@ nav ul li {
     border-width: 2px;
     /* margin - space between border and other elements */
     margin: 5px;
+    /* cursor: pointer changed the cursor to point instead of text select */
+    cursor: pointer;
+}
+
+a {
+    all: unset;
 }
 
 /* paragraph */
@@ -63,6 +74,7 @@ p {
     background-color: #2fa0a8;
     font-size: 30;
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
 }
 
 
