@@ -8,12 +8,13 @@
 
 body {
     width: 100vw;
+
 }
 
 /* all Divs in container */
 /* container - centers all content with in container */
 .container {
-    width: 100%;
+    width: 50%;
     height: 100%;
 
     /* display= flex - allows fluditiy of the containers content */
@@ -24,7 +25,18 @@ body {
     align-items: center;
     /* justify content horizontally - centered */
     justify-content: center;
+}
 
+.centered-content {
+    /* display= flex - allows fluditiy of the containers content */
+    display: flex;
+    /* set direct to column to prevent everything on same line */
+    flex-direction: column;
+    /* align items vertically - centered */
+    align-items: center;
+    /* justify content horizontally - centered */
+    justify-content: center;
+    width: 100%;
 }
 
 /* navigation bar style */
@@ -60,9 +72,6 @@ nav ul li {
     height: 40px
   }
 
-a {
-    all: unset;
-}
 
 /* paragraph */
 p {
@@ -90,36 +99,23 @@ p {
 
 
 #the-end {
-    background-color: blueviolet;
+    background-color: rgb(198, 226, 43);
 }
 
 /* animation movement controls */
 #movement {
-    position: relative;
-    animation: makesquare 2s infinite;
+    position:relative;
+    animation: makesquare 5s infinite;
 }
 
 
 /* image animation */
 @keyframes makesquare {
-    0% {
-        top: 0px;
-        left: 0px;
-    }
-
-    25% {
-        top: 100px;
-        left: 0px;
-    }
-
-    75% {
-        top: 100px;
-        left: 100px;
-    }
-
-    100% {
-        Top: 0px;
-        left: 100px;
-    }
+0% {left:0px; top: -242px;}
+20% {left:230px; top: -242px;}
+40% {left:230px; top: 0px;}
+60% {left:-230px; top: 0px;}
+80% {left:-230px; top: -242px;}
+100% {left: 0px; top: -242px;}
 
 }
